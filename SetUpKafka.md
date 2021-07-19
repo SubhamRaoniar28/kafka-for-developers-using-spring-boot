@@ -158,11 +158,11 @@ auto.create.topics.enable=false
 - Provide the new **server.properties** thats added.
 
 ```
-./kafka-server-start.sh ../config/server-1.properties
+.\kafka-server-start.bat ..\..\config\server.properties
 ```
 
 ```
-./kafka-server-start.sh ../config/server-2.properties
+.\kafka-server-start.bat ..\..\config\server-1.properties
 ```
 
 # Advanced Kafka CLI operations:
